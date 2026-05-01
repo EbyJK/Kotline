@@ -44,9 +44,9 @@ for (e in expenses) {
 }
 
 println("\nCategory Breakdown:")
-println("Under ₹100: $low")
-println("₹100–₹1000: $mid")
-println("Above ₹1000: $high")
+println("Under Rs.100: $low")
+println("Rs.100 to Rs.1000: $mid")
+println("Above Rs.1000: $high")
 
 
 
@@ -68,6 +68,8 @@ if (high > mid && high > low) {
 } else {
     println("Your spending is fairly distributed.")
 }
-println("Total spending: ₹$total")
-println("Average spending: ₹$average")
+
+println("\n")
+println("Total spending: Rs.$total")
+println("Average spending: Rs.$average")
 }
